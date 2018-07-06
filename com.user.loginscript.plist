@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.startup</string>
+    <string>com.user.loginscript</string>
     <key>Program</key>
-    <string>/Users/devinfrenze/Projects/earthview-desktop-bg/script.sh</string>
+    <string>/Users/username/path/to/earthview-desktop-bg/script.sh</string>
     <key>WorkingDirectory</key>
-    <string>/Users/devinfrenze/Projects/earthview-desktop-bg</string>
+    <string>/Users/username/path/to/earthview-desktop-bg</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
@@ -18,8 +18,8 @@
       <string>/bin:/usr/bin:/usr/local/bin/</string>
     </dict>
     <key>StandardOutPath</key>
-    <string>/tmp/earthview.stdout</string>
+    <string>/tmp/earthview_desktop_bg.stdout</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/earthview.stderr</string>
+    <string>/tmp/earthview_desktop_bg.stderr</string>
   </dict>
 </plist>
